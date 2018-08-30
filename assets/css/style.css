@@ -8,18 +8,241 @@ body, html {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
-    width: 100%
+    width: 100%;
+   
+}
+
+#intro-box {
+    padding: 30px;
+    background-color: #9ee2fb;
+    opacity: .85;
+    color: black;
+    font-size: 20px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.navbar-brand {
+    float: right;
+    font-size: 30px;
+    color: white;
+    font-family: 'Rammetto One', cursive;
+    text-shadow: 2px 2px 4px black;
+}
+
+header {
+    padding: 10px;
+}
+
+.cool-line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
 }
 
 
+#about, #click-box, #portfolio {
+    width: 960px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Rammetto One', cursive;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 1.5;
+}
 
-img {
+#intro1 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+#meet:hover, #portfolio:hover {
+opacity: .7;
+cursor: pointer;
+}
+
+.links, #portfolio, #contact, #return, a {
+    text-decoration: none;
+}
+
+#return-btn1, #return-btn2, #return-btn3, #return-btn4, #return-btn5, #return-btn6, #return-btn7 {
+    color: #c5d9dc;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #000d2e;
+    border-radius: 2px;
+    font-family: 'M PLUS 1p', sans-serif;
+    cursor: pointer;
+}
+
+#return {
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+#return:hover {
+    opacity: .7;
+}
+
+#github, #linkedin, #stackoverflow, #email {
     width: 60px;
     height: 60px;
+   
+}
+
+#profile-image {
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+    float: left;
+    padding:0px 10px 10px 0px;
 }
 
 #github:hover, #email:hover, #linkedin:hover, #stackoverflow:hover {
     opacity: .6;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:black;
+   height:30px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'M PLUS 1p', sans-serif;
+    margin-top: 10px;
+
+}
+
+#train-info, #hangman-info, #giphy-info, #wfddfw-info, #trivia-info, #crystal-info, #liri-info {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    background-color:#f2f7f8;
+    opacity: .85;
+    -moz-box-shadow:    inset 0 0 10px #f1f4f5;
+    -webkit-box-shadow: inset 0 0 10px #f1f4f5;
+    box-shadow:         inset 0 0 10px #f1f4f5;
+    border-radius: 2px;
+    color: #000d2e;
+    padding: 50px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+* {box-sizing: border-box}
+body {font-family: 'M PLUS 1p', sans-serif;}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text1, .text2, .text3, .text4, .text5, .text6, .text7 {
+  color: #f2f2f2;
+  background-color: black;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: 'M PLUS 1p', sans-serif;
+  }
+
+  .text1:hover, .text2:hover, .text3:hover, .text4:hover, .text5:hover, .text6:hover, .text7:hover {
+      cursor: pointer;
+      opacity: .7;
+  }
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 
@@ -36,17 +259,99 @@ img {
     margin: 50 auto;
     text-align: center;
     line-height: 2;
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 40px;
-    color: antiquewhite;
-  
+    font-family: 'Rammetto One', cursive;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
     letter-spacing: 1.5;
 }
 
+#intro-box {
+    padding: 30px;
+    background-color: #9ee2fb;
+    opacity: .85;
+    color: black;
+    font-size: 20px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
 
 }
 
 @media screen and (max-width: 640px) {
+ 
+.container {
+     width: 0 auto;
+     padding: 10px;
+     text-align: center;
+     line-height: 1.5;
+     font-family: 'Rammetto One', cursive;
+     font-size: 25px;
+     color: white;
+     text-shadow: 2px 2px 4px #000000;
+     letter-spacing: 1.5;
+     background-image: URL("../images/iphonebackground.png");
+     
+ }
+h1#intro1 {
+    font-size: 22px;
+}
 
+#introbox {
+    text-shadow: none;
+    font-size: 15px;
+}
+
+ #about, #click-box, #contact, #portfolio {
+     width: 350px;
+    
+     font-size: 30px;
+     padding: 10px;
+     
+ }
+
+
+ #name {
+     line-height: 2;
+     color: rgba(255, 255, 255, 0.884);
+ }
+
+ #intro-box {
+    padding: 20px;
+    background-color: #9ee2fb;
+    opacity: .85;
+    color: black;
+    font-size: 20px;
+    font-family: 'M PLUS 1p', sans-serif;
+   
+}
+
+#intro1 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+a.prev, a.next {
+    position: relative;
+}
+
+#train-info, #hangman-info, #giphy-info, #wfddfw-info, #trivia-info, #crystal-info, #liri-info {
+    padding: 20px;
+   
+}
+a.href {
+    padding: 5px;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7 {
+    font-size: 18px;
+}
+
+.cool-line{ 
+   
+    color:#9ee2fb;
+    height:3px;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from (#9ee2fb) to (white));
+}
 }
 
