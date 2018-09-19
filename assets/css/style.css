@@ -71,7 +71,7 @@ cursor: pointer;
     text-decoration: none;
 }
 
-#return-btn1, #return-btn2, #return-btn3, #return-btn4, #return-btn5, #return-btn6, #return-btn7, #return-btn8, #return-btn9 {
+#return-btn1, #return-btn2, #return-btn3, #return-btn4, #return-btn5, #return-btn6, #return-btn7, #return-btn8, #return-btn9, #return-btn10 {
     color: #c5d9dc;
     padding: 5px;
     font-size: 16px;
@@ -126,7 +126,7 @@ footer {
 
 }
 
-#train-info, #hangman-info, #giphy-info, #wfddfw-info, #trivia-info, #crystal-info, #liri-info, #bamazon-info, #friend-finder-info {
+#train-info, #hangman-info, #giphy-info, #wfddfw-info, #trivia-info, #crystal-info, #liri-info, #bamazon-info, #friend-finder-info, #burger-info {
     max-width: 600px;
     position: relative;
     margin: auto;
@@ -185,7 +185,7 @@ img {vertical-align: middle;}
 }
 
 /* Caption text */
-.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9 {
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10 {
   color: #f2f2f2;
   background-color: black;
   font-size: 25px;
@@ -197,7 +197,7 @@ img {vertical-align: middle;}
   font-family: 'M PLUS 1p', sans-serif;
   }
 
-  .text1:hover, .text2:hover, .text3:hover, .text4:hover, .text5:hover, .text6:hover, .text7:hover, .text8:hover, .text9:hover {
+  .text1:hover, .text2:hover, .text3:hover, .text4:hover, .text5:hover, .text6:hover, .text7:hover, .text8:hover, .text9:hover, .text10:hover {
       cursor: pointer;
       opacity: .7;
   }
@@ -335,7 +335,7 @@ a.prev, a.next {
     position: relative;
 }
 
-#train-info, #hangman-info, #giphy-info, #wfddfw-info, #trivia-info, #crystal-info, #liri-info, #bamazon-info, #friend-finder-info {
+#train-info, #hangman-info, #giphy-info, #wfddfw-info, #trivia-info, #crystal-info, #liri-info, #bamazon-info, #friend-finder-info, #burger-info {
     padding: 20px;
    
 }
@@ -343,7 +343,7 @@ a.href {
     padding: 5px;
 }
 
-.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9 {
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10 {
     font-size: 18px;
 }
 

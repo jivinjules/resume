@@ -9,6 +9,7 @@ $(document).ready(function () {
   $("#liri-info").hide();
   $("#bamazon-info").hide();
   $("#friend-finder-info").hide();
+  $("#burger-info").hide();
 
   //Adding moment.js to get clock at the top of the screen
   var currentTime = moment();
@@ -28,7 +29,7 @@ $(document).ready(function () {
     $("hr").hide();
     $("#intro-box").fadeIn();
   })
-});
+
 
 //Updates the portfolio page. 
 //When the user clicks the "learn more about..." area, it reveals an info div
@@ -125,4 +126,17 @@ $(".text8").on("click", function () {
 
   });
 
+  $(".text10").on("click", function () {
+    $(".slideshow-container").hide();
+    $("#burger-info").fadeIn();
+    $("#return-btn10").on("click", function () {
+      $("#burger-info").hide();
+      $(".slideshow-container").fadeIn();
+    });
+
+  });
+
+
+});
+  
 
