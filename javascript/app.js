@@ -10,6 +10,7 @@ $(document).ready(function () {
   $("#bamazon-info").hide();
   $("#friend-finder-info").hide();
   $("#burger-info").hide();
+  $("#trading-grounds-info").hide();
 
   //Adding moment.js to get clock at the top of the screen
   var currentTime = moment();
@@ -131,6 +132,16 @@ $(".text8").on("click", function () {
     $("#burger-info").fadeIn();
     $("#return-btn10").on("click", function () {
       $("#burger-info").hide();
+      $(".slideshow-container").fadeIn();
+    });
+
+  });
+
+  $(".text11").on("click", function () {
+    $(".slideshow-container").hide();
+    $("#trading-grounds-info").fadeIn();
+    $("#return-btn11").on("click", function () {
+      $("#trading-grounds-info").hide();
       $(".slideshow-container").fadeIn();
     });
 
